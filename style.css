@@ -151,7 +151,7 @@ section{
     -ms-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
-    mix-blend-mode: difference;
+    /*mix-blend-mode: difference;*/
 }
 .navigation li a::after,
 .navigation li a::before {
@@ -300,7 +300,7 @@ section{
     -ms-transition:padding .4s ease;
     -moz-transition:padding .4s ease;
     -webkit-transition:padding .4s ease;
-    mix-blend-mode: unset;
+/*mix-blend-mode: unset;*/
 }
 .nav-outer.affix .logo {
     max-width: 150px;

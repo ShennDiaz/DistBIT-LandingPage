@@ -113,13 +113,6 @@ section{
     width: auto;
     line-height: 0;
 }
-@media  (max-width: 990px){
-    .logo{
-        margin: auto;
-        float: none;
-        text-align: center;
-  }
-}
 .menu-holder{
     padding: 38px 0;
 }
@@ -1885,3 +1878,4 @@ footer.dark-black .widget_recent_entries ul li{
      }
 
   }
+  

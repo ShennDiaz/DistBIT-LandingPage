@@ -5,6 +5,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="ad97e2e6-c06f-4161-a008-15821dcd6927"
@@ -28,7 +29,40 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs91" />
+     id="defs91">
+    <linearGradient
+       id="bb74ba87-0e24-4c9d-a373-e17481b146a7"
+       x1="345.70001"
+       y1="823.95001"
+       x2="345.70001"
+       y2="606.19"
+       gradientTransform="translate(636.4)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="gray"
+         stop-opacity="0.25"
+         id="stop2" />
+      <stop
+         offset="0.54"
+         stop-color="gray"
+         stop-opacity="0.12"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="gray"
+         stop-opacity="0.1"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="9ace95f1-7a40-47d7-848c-20f8f7c52f52"
+       x1="-254.27"
+       y1="469.69"
+       x2="-254.27"
+       y2="232.12"
+       gradientTransform="matrix(0.79189853,-0.03042168,0.03042168,0.79189853,808.63577,-0.19812)"
+       xlink:href="#bb74ba87-0e24-4c9d-a373-e17481b146a7" />
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -38,12 +72,12 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1600"
+     inkscape:window-width="1440"
      inkscape:window-height="837"
      id="namedview89"
      showgrid="false"
      inkscape:zoom="0.5868792"
-     inkscape:cx="277.35136"
+     inkscape:cx="0.46303273"
      inkscape:cy="250.09069"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -84,7 +118,7 @@
        transform="translate(-19.23898,-53.87484)"
        d="m 290.49114,622.12231 c 2.2427,76.79367 -42.62747,104.93685 -98.93825,106.58136 q -1.962,0.0573 -3.90636,0.0702 -3.91709,0.0299 -7.75808,-0.13046 c -50.92746,-2.1142 -91.23951,-29.14763 -93.32521,-100.56557 -2.15845,-73.90872 89.5781,-169.93874 96.46088,-177.04212 0.006,-1.8e-4 0.006,-1.8e-4 0.0123,-0.007 0.26146,-0.27069 0.39536,-0.40611 0.39536,-0.40611 0,0 104.81686,94.71185 107.05939,171.49929 z"
        inkscape:connector-curvature="0"
-       style="fill:#6c63ff;stroke-width:1.58450055" />
+       style="fill:#1652f0;stroke-width:1.58450055;fill-opacity:1" />
     <path
        id="path852"
        transform="translate(-19.23898,-53.87484)"
@@ -340,7 +374,7 @@
        transform="translate(-19.23898,-53.87484)"
        d="m 990.40617,320.98636 h 41.30363 a 144.46152,144.46152 0 0 0 0,-49.24667 h -41.30363 a 88.61132,88.61132 0 0 1 0,49.24667 z"
        inkscape:connector-curvature="0"
-       style="fill:#6c63ff;stroke-width:1.58450055" />
+       style="fill:#1652f0;stroke-width:1.58450055;fill-opacity:1" />
     <path
        id="path928"
        transform="translate(-19.23898,-53.87484)"
@@ -418,7 +452,7 @@
        transform="translate(-19.23898,-53.87484)"
        d="m 1032.162,475.67161 h 41.3037 a 144.46158,144.46158 0 0 0 0,-49.24668 h -41.3037 a 88.61154,88.61154 0 0 1 0,49.24668 z"
        inkscape:connector-curvature="0"
-       style="fill:#6c63ff;stroke-width:1.58450055" />
+       style="fill:#167af0;stroke-width:1.58450055;fill-opacity:1" />
     <path
        id="path956"
        transform="translate(-19.23898,-53.87484)"
@@ -430,43 +464,43 @@
        r="23.86364"
        cy="174.03149"
        cx="375.86365"
-       style="fill:#6c63ff;stroke-width:1.58450055" />
+       style="fill:#1652f0;stroke-width:1.58450055;fill-opacity:1" />
     <circle
        id="circle960"
        r="19.5"
        cy="174.03149"
        cx="439.5"
-       style="fill:#6c63ff;stroke-width:1.58450055" />
+       style="fill:#167af0;stroke-width:1.58450055;fill-opacity:1" />
     <circle
        id="circle962"
        r="11.86364"
        cy="174.03149"
        cx="503.13635"
-       style="fill:#6c63ff;stroke-width:1.58450055" />
+       style="fill:#169af0;stroke-width:1.58450055;fill-opacity:1" />
     <circle
        id="circle964"
        r="12.53648"
        cy="177.02031"
        cx="768.97797"
-       style="fill:#6c63ff;stroke-width:1.58450055" />
+       style="fill:#1652f0;stroke-width:1.58450055;fill-opacity:1" />
     <circle
        id="circle966"
        r="9.9671097"
        cy="177.02031"
        cx="802.40863"
-       style="fill:#6c63ff;stroke-width:1.58450055" />
+       style="fill:#167af0;stroke-width:1.58450055;fill-opacity:1" />
     <circle
        id="circle968"
        r="6.5364799"
        cy="177.02031"
        cx="835.83923"
-       style="fill:#6c63ff;stroke-width:1.58450055" />
+       style="fill:#169af0;stroke-width:1.58450055;fill-opacity:1" />
     <circle
        id="circle970"
        r="56"
        cy="538.03149"
        cx="583"
-       style="fill:#6c63ff;stroke-width:1.58450055" />
+       style="fill:#1652f0;stroke-width:1.58450055;fill-opacity:1" />
     <polygon
        id="polygon972"
        points="562.166,550.401 573.908,550.386 573.908,567.904 592.083,567.904 592.083,550.362 603.834,550.347 582.946,508.159 "

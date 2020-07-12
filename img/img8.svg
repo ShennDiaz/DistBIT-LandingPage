@@ -5,6 +5,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="ad97e2e6-c06f-4161-a008-15821dcd6927"
@@ -28,7 +29,40 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs91" />
+     id="defs91">
+    <linearGradient
+       id="bb74ba87-0e24-4c9d-a373-e17481b146a7"
+       x1="345.70001"
+       y1="823.95001"
+       x2="345.70001"
+       y2="606.19"
+       gradientTransform="translate(636.4)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="gray"
+         stop-opacity="0.25"
+         id="stop2" />
+      <stop
+         offset="0.54"
+         stop-color="gray"
+         stop-opacity="0.12"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="gray"
+         stop-opacity="0.1"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="9ace95f1-7a40-47d7-848c-20f8f7c52f52"
+       x1="-254.27"
+       y1="469.69"
+       x2="-254.27"
+       y2="232.12"
+       gradientTransform="matrix(0.79189853,-0.03042168,0.03042168,0.79189853,808.63577,-0.19812)"
+       xlink:href="#bb74ba87-0e24-4c9d-a373-e17481b146a7" />
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -38,12 +72,12 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1600"
+     inkscape:window-width="1440"
      inkscape:window-height="837"
      id="namedview89"
      showgrid="false"
      inkscape:zoom="0.5868792"
-     inkscape:cx="148.73376"
+     inkscape:cx="44.755756"
      inkscape:cy="213.45006"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -90,7 +124,7 @@
     <polygon
        id="polygon1116"
        points="98,177.205 162,113.205 214.5,166.705 214.5,219.205 27,219.205 27,180.742 64.268,143.474 "
-       style="fill:#6c63ff;stroke-width:1.72029555" />
+       style="fill:#1652f0;stroke-width:1.72029555;fill-opacity:1" />
     <path
        id="path1118"
        transform="translate(-125.5,-31.95243)"
@@ -149,7 +183,7 @@
        r="13"
        cy="264.20535"
        cx="889"
-       style="fill:#6c63ff;stroke-width:1.72029555" />
+       style="fill:#1652f0;stroke-width:1.72029555;fill-opacity:1" />
     <circle
        id="circle1136"
        r="13"
@@ -161,13 +195,13 @@
        r="13"
        cy="344.20535"
        cx="902"
-       style="fill:#6c63ff;stroke-width:1.72029555" />
+       style="fill:#1652f0;stroke-width:1.72029555;fill-opacity:1" />
     <circle
        id="circle1140"
        r="13"
        cy="371.20535"
        cx="936"
-       style="fill:#6c63ff;stroke-width:1.72029555" />
+       style="fill:#1652f0;stroke-width:1.72029555;fill-opacity:1" />
     <circle
        id="circle1142"
        r="13"
@@ -220,21 +254,21 @@
        width="178.36127"
        y="393.87418"
        x="303.37537"
-       style="fill:#6c63ff;stroke-width:1.72029555" />
+       style="fill:#1652f0;stroke-width:1.72029555;fill-opacity:1" />
     <rect
        id="rect1160"
        height="16.41361"
        width="178.36127"
        y="427.79565"
        x="303.37537"
-       style="fill:#6c63ff;stroke-width:1.72029555" />
+       style="fill:#1652f0;stroke-width:1.72029555;fill-opacity:1" />
     <rect
        id="rect1162"
        height="16.41361"
        width="178.36127"
        y="461.71713"
        x="303.37537"
-       style="fill:#6c63ff;stroke-width:1.72029555" />
+       style="fill:#1652f0;stroke-width:1.72029555;fill-opacity:1" />
     <path
        id="path1164"
        transform="translate(-125.5,-31.95243)"
@@ -252,13 +286,13 @@
        r="18"
        cy="242.20535"
        cx="298"
-       style="fill:#6c63ff;stroke-width:1.72029555" />
+       style="fill:#1652f0;stroke-width:1.72029555;fill-opacity:1" />
     <circle
        id="circle1170"
        r="18"
        cy="516.20532"
        cx="600"
-       style="fill:#6c63ff;stroke-width:1.72029555" />
+       style="fill:#1652f0;stroke-width:1.72029555;fill-opacity:1" />
     <circle
        id="circle1172"
        r="30.28838"

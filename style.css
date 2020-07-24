@@ -279,6 +279,24 @@ section{
     -moz-transition:background .3s ease-in-out,box-shadow .3s ease-in-out, padding .3s ease-in-out;
     -webkit-transition:background .3s ease-in-out,box-shadow .3s ease-in-out, padding .3s ease-in-out;
 }
+@media (max-width: 500px) {
+  .nav-outer{
+    margin: 0;
+    position: fixed;
+    padding: 0;
+    background-color: #fff;
+    box-shadow:0px 20px 20px 0px rgba(0, 0, 0, 0.05);
+    transition:background .3s ease-in-out,box-shadow .3s ease-in-out, padding .3s ease-in-out;
+    -o-transition:background .3s ease-in-out,box-shadow .3s ease-in-out, padding .3s ease-in-out;
+    -ms-transition:background .3s ease-in-out,box-shadow .3s ease-in-out, padding .3s ease-in-out;
+    -moz-transition:background .3s ease-in-out,box-shadow .3s ease-in-out, padding .3s ease-in-out;
+    -webkit-transition:background .3s ease-in-out,box-shadow .3s ease-in-out, padding .3s ease-in-out;
+  }
+  .nav-outer .logo { max-width: 150px; }
+
+}
+
+
 .crypton-vertion .nav-outer.affix{
     background-color: #171921 !important;
 }
@@ -1878,4 +1896,3 @@ footer.dark-black .widget_recent_entries ul li{
      }
 
   }
-  

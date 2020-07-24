@@ -158,8 +158,15 @@
 	}
 	.oscar-header-3 .logo {
 	}
-	.main-banner .banner-caption-wrap {
-	    padding: 86px 0 95px;
+	.banner-caption-wrap {
+	    padding-top: 50px;
+			padding-bottom: 0px;
+	}
+	@media (max-width: 500px) {
+		.main-banner .banner-caption-wrap {
+		    padding-top: 0px;
+				padding-bottom: 0px;
+		}
 	}
 	.triangle-bg{
 		background-image:none;

@@ -261,10 +261,10 @@ dl dd {
 address {
     font-style: italic;
 }
-:-moz-placeholder { color: #bbc8ce; opacity: 1; }
-::-moz-placeholder { color: #bbc8ce; opacity: 1; }
-:-ms-input-placeholder {color: #bbc8ce; opacity: 1;}
-::-webkit-input-placeholder {color: #bbc8ce; opacity: 1;}
+:-moz-placeholder { color: #8e8e8e; opacity: 1; }
+::-moz-placeholder { color: #8e8e8e; opacity: 1; }
+:-ms-input-placeholder {color: #8e8e8e; opacity: 1;}
+::-webkit-input-placeholder {color: #8e8e8e; opacity: 1;}
 
 
 

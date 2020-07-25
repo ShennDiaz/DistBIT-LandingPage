@@ -43,6 +43,9 @@
     <link rel="apple-touch-icon" sizes="72x72" href="img/icon.svg">
     <link rel="apple-touch-icon" sizes="114x114" href="img/icon.svg">
     <link rel="icon" sizes="192x192" href="img/icon.svg">
+
+    <link rel="stylesheet" href="fonts/style.css">
+
 </head>
 
 <body >
@@ -51,7 +54,7 @@
         <div id="loader3" class="loader-cont">Please enable JS</div>
     </div>
     <!--END LOADER -->
-    <div class="main-wrapper">
+    <div class="main-wrapper"  id="home">
         <header id="header" style="height: 150px;">
         <!-- MENU Navigation -->
             <div class="nav-outer sticky-header">
@@ -71,8 +74,8 @@
                                     <li class="active"><a href="#home">Home</a></li>
                                     <li><a href="#about-us" >About</a></li>
                                     <li><a href="#how-it-work">How it Works</a></li>
-                                    <li><a href="#features" >Features</a></li>
-                                    <li><a href="#contact"  >Contact</a></li>
+                                    <li><a href="#ourprojects" >Our Projects</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                             </nav>
                         </div>
                     </div>
@@ -82,7 +85,7 @@
         <!--END MENU Navigation -->
         </header>
         <!--Cover Page-->
-                <div class="linea main-banner align-items-center" >
+                <div class="linea main-banner align-items-center">
                     <div class="container">
                           <div class="row">
                               <!--Title---------------------->
@@ -322,7 +325,7 @@
             </div>
         </section>
 <!-- SECTION---------------------->
-        <section id="how-it-work">
+        <section id="ourprojects" class="linea">
             <div class="container">
             <!--Title--->
                 <div class="row" data-aos="fade-up">
@@ -378,7 +381,7 @@
                         </div>
                     </div>
                     <!------------------------>
-                    <div data-aos="fade-up" data-aos-delay="600" class="col-md-4 hidden-sm">
+                    <div data-aos="fade-up" data-aos-delay="600" class="col-md-4 col-sm-6">
                         <div class="" style="padding-left: 20px; padding-right: 20px;">
                           <!--Image--->
                           <figure class="center-block">
@@ -441,7 +444,7 @@
                      </div>
                  </div>
                  <!------------------------>
-                 <div data-aos="fade-up" data-aos-delay="600" class="col-md-4 hidden-sm">
+                 <div data-aos="fade-up" data-aos-delay="600" class="col-md-4 col-sm-6">
                      <div class="" style="padding-left: 20px; padding-right: 20px;">
                        <!--Image--->
                        <figure class="center-block">
@@ -460,6 +463,39 @@
                  </div>
              </div>
        <!--END Content--------------------->
+          </div>
+        </section>
+<!-- SECTION MAP N CONTACT---------------------->
+        <section style="padding: 50px 0 50px;" id="contact">
+          <div class="container">
+            <!--Title--->
+                <div class="row" data-aos="fade-up">
+                    <h3 class="style-title" style="  text-align:center; margin-bottom: 50px;">
+                        Contact
+                        <br>
+                        <hr width=30% align="center "
+                            style=" border-top: 3px solid #1652f0; margin-top: 10px; margin-bottom:10px;">
+                    </h3>
+                </div>
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+                <div class="">
+                  <form class="" action="form.php" method="post">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="text" name="email" placeholder="Email" required>
+                    <input type="text" name="affair" placeholder="Affair" required>
+                    <textarea name="message" placeholder="Write your message here!" required></textarea>
+                    <input type="submit" name="" value="Send Mail" id="boton">
+                  </form>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <div class="map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.6486998683195!2d-99.16753078509336!3d19.42757888688717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffea96240717%3A0x1ede99865ae96f10!2sWeWork%20Oficinas%20Amuebladas%20%26%20Coworking%20Reforma%20Latino!5e0!3m2!1ses-419!2smx!4v1595653337538!5m2!1ses-419!2smx" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 <!-- SECTION---------------------->
@@ -494,7 +530,15 @@
 <!--FOOTER---------------------->
         <div class="copy-right light-black-bg">
             <div class="container">
-                <div class="pull-left">
+              <div class="">
+                  <ul class="short-nav" style="font-size: 20px; color:#fff;">
+                      <li style="font-size: 20px; color:#fff;"><a href="#"> <span class="icon-twitter"></span> </a></li>
+                      <li style="font-size: 20px; color:#fff;"><a href="#"> <span class="icon-facebook"></span> </a></li>
+                      <li style="font-size: 20px; color:#fff;"><a href="#"> <span class="icon-brand2"></span> </a></li>
+                      <li style="font-size: 20px; color:#fff;"><a href="https://www.linkedin.com/company/distbit/"> <span class="icon-social3"></span> </a></li>
+                  </ul>
+              </div>
+                <div class="pull-left" style="margin-top: 20px;">
                     <p>Copyright © 2020 DistBit. All Rights Reserved.</p>
                 </div>
                 <div class="pull-right">
@@ -502,7 +546,6 @@
                         <li><a href="#">Terms of services</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Security</a></li>
-                        <li><a href="#">Siemap</a></li>
                     </ul>
                 </div>
             </div>
